@@ -485,7 +485,7 @@ print('loading gui library')
 --gui library load--
 local library = nil
 task.spawn(function()
-    local newlib = loadstring(game:HttpGet("https://pastebin.com/raw/kzPjQQbs", true))()
+    local newlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/lenasums/ARDOUR/refs/heads/main/newlib", true))()
 
     if library ~= nil then 
         newlib.GUI:Destroy()
@@ -500,7 +500,7 @@ end)
 task.wait(2)
 while library == nil do
     task.spawn(function()
-        local newlib = loadstring(game:HttpGet("https://pastebin.com/raw/kzPjQQbs", true))()
+        local newlib = loadstring(game:HttpGet(https://raw.githubusercontent.com/lenasums/ARDOUR/refs/heads/main/newlib2", true))()
 
         if library ~= nil then 
             newlib.GUI:Destroy()
